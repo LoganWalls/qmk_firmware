@@ -66,7 +66,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define RGB_DI_PIN E2 // C6, F0, B4, B5, B6
 #define RGB_DI_PIN F0 //  B4, B5, B6
 #ifdef RGB_DI_PIN
-#    define RGBLED_NUM 67
+#    define RGBLED_NUM 77
 #    define RGBLIGHT_HUE_STEP 8
 #    define RGBLIGHT_SAT_STEP 8
 #    define RGBLIGHT_VAL_STEP 8
