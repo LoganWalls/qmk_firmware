@@ -21,15 +21,25 @@
 #define ___ KC_NO
 
 #define LAYOUT_65_ansi_blocker( \
-    k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k0a, k0b, k0c, k0d, k0e,  \
-    k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k1a, k1b, k1c, k1d, k1e,  \
-    k20, k21, k22, k23, k24, k25, k26, k27, k28, k29, k2a, k2b, k2d, k2e,       \
-    k30, k32, k33, k34, k35, k36, k37, k38, k39, k3a, k3b, k3c, k3d, k3e,       \
-    k40, k41, k43, k46, k4a, k4b, k4c, k4d, k4e                                 \
+    k00, k10, k20, k30, k40, k50, k60, k70, k80, k90, ka0, kb0, kc0, kd0, ke0,  \
+    k01, k11, k21, k31, k41, k51, k61, k71, k81, k91, ka1, kb1, kc1, kd1, ke1,  \
+    k02, k12, k22, k32, k42, k52, k62, k72, k82, k92, ka2, kb2, kd2, ke2,  \
+    k03, k23, k33, k43, k53, k63, k73, k83, k93, ka3, kb3, kc3, kd3, ke3,  \
+    k04, k14, k34, k64, ka4, kb4, kc4, kd4, ke4 \
 ){ \
-    { k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k0a, k0b, k0c, k0d, k0e },  \
-    { k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k1a, k1b, k1c, k1d, k1e },  \
-    { k20, k21, k22, k23, k24, k25, k26, k27, k28, k29, k2a, k2b, ___, k2d, k2e },  \
-    { k30, ___, k32, k33, k34, k35, k36, k37, k38, k39, k3a, k3b, k3c, k3d, k3e },  \
-    { k40, k41, ___, k43, ___, ___, k46, ___, ___, ___, k4a, k4b, k4c, k4d, k4e }   \
+    { k00, k01, k02, k03, k04 },  \
+    { k10, k11, k12, ___, k14 },  \
+    { k20, k21, k22, k23, ___ },  \
+    { k30, k31, k32, k33, k34 },  \
+    { k40, k41, k42, k43, ___ },  \
+    { k50, k51, k52, k53, ___ },  \
+    { k60, k61, k62, k63, k64 },  \
+    { k70, k71, k72, k73, ___ },  \
+    { k80, k81, k82, k83, ___ },  \
+    { k90, k91, k92, k93, ___ },  \
+    { ka0, ka1, ka2, ka3, ka4 },  \
+    { kb0, kb1, kb2, kb3, kb4 },  \
+    { kc0, kc1, ___, kc3, kc4 },  \
+    { kd0, kd1, kd2, kd3, kd4 },  \
+    { ke0, ke1, ke2, ke3, ke4 }   \
 }

@@ -27,8 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT      IDOBAO ID67 V2
 
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 15
+#define MATRIX_ROWS 15
+#define MATRIX_COLS 5
 
 /*
  * Keyboard Matrix Assignments
@@ -40,12 +40,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { 8, 9, 10, 11, 36 }
-#define MATRIX_COL_PINS { 32, 37, 38, 39, 40, 12, 22, 19, 20, 21, 25, 18, 26, 27, 28 }
+#define MATRIX_ROW_PINS { C7, F6, F5, F4, F1, B7, D5, D1, D2, D3, D4, D0, D6, D7, B4 }
+#define MATRIX_COL_PINS { B0, B1, B2, B3, F7 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
-#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
