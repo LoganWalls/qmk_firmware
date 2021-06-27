@@ -1,8 +1,8 @@
 {
     "keyboard_name": "IDOBAO ID67 V2",
-    "url": "",
+    "url": "https://www.idobao.net/products/idobao-id67-65-hot-swappable-mechanical-keyboard-kit-1",
     "maintainer": "Logan Walls",
-    "width": 15,
+    "width": 16,
     "height": 5,
     "layout_aliases": {
         "LAYOUT_all": "LAYOUT_65_ansi_blocker"
