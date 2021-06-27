@@ -23,7 +23,7 @@
 #define LAYOUT_65_ansi_blocker( \
     k00, k10, k20, k30, k40, k50, k60, k70, k80, k90, ka0, kb0, kc0, kd0, ke0, \
     k01, k11, k21, k31, k41, k51, k61, k71, k81, k91, ka1, kb1, kc1, kd1, ke1, \
-    k02, k12, k22, k32, k42, k52, k62, k72, k82, k92, ka2, kb2, kd2,      ke2, \
+    k02, k12, k22, k32, k42, k52, k62, k72, k82, k92, ka2, kb2,      kd2, ke2, \
     k03,      k23, k33, k43, k53, k63, k73, k83, k93, ka3, kb3, kc3, kd3, ke3, \
     k04, k14, k34,                k64,                ka4, kb4, kc4, kd4, ke4  \
 ){ \
